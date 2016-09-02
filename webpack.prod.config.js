@@ -6,7 +6,7 @@ const config = {
   devtool: 'source-map',
 
   entry: [
-    path.join(__dirname, '/src/app/app.jsx'),
+    path.join(__dirname, '/src/app/index.jsx'),
   ],
 
   output: {

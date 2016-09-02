@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './components/Main';
 
-const app = document.createElement('div');
-document.body.appendChild(app);
+const root = document.createElement('div');
+document.body.appendChild(root);
 
 ReactDOM.render((
   <Main>webpack-react-template</Main>
-), app);
+), root);
